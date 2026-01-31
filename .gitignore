@@ -1,0 +1,36 @@
+# Diretórios
+.venv/
+__pycache__/
+.pytest_cache/
+instancias/
+output/
+
+# Arquivos de saída
+*.csv
+*.txt
+output_*.txt
+benchmark_*.csv
+resultados_*.csv
+estatisticas_*.csv
+comparacao_*.csv
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos de lock
+.lock
+
+# Só enviar Python
+!*.py
